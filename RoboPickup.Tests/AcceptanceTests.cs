@@ -35,14 +35,14 @@ public class AcceptanceTests
         {
             "########",
             "#S..a..#",
-            "#..##..#",
+            "#####..#",
             "#..b..##",
             "########"
         };
 
         var result = this._libraryRoutePlanner.Start(test);
 
-        Assert.Equal("RRRRDDLLLUUL", result);
+        Assert.Equal("RRRRDDLLRRUULLLL", result);
     }
 
     [Fact]
