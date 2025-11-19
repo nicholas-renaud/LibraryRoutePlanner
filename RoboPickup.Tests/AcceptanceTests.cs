@@ -16,16 +16,14 @@ public class AcceptanceTests
     {
         var test = new[] 
         {
-            "#####",
-            "#Sa.#",
-            "#...#",
-            "#.b.#",
-            "#####"
+            "#######",
+            "#S.a.b#",
+            "#######"
         };
 
         var result = this._libraryRoutePlanner.Start(test);
 
-        Assert.Equal("RDDUUL", result);
+        Assert.Equal("RRRRLLLL", result);
     }
 
     [Fact]
