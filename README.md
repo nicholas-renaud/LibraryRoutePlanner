@@ -23,7 +23,7 @@ La bibliothèque est représentée sous forme d’une grille rectangulaire de ca
 
 Il y a exactement un seul `S` dans la grille.  
 Il peut y avoir zéro ou plusieurs livres demandés (lettres).  
-Toutes les lignes ont la même longueur.
+Toutes les lignes et toutes les colonnes ont la même longueur.
 
 Le robot peut se déplacer dans quatre directions :
 
@@ -43,7 +43,7 @@ Le robot :
   - Une fois le livre ramassé, cette case devient une case libre pour le reste du trajet.
   - Le robot peut transporter tous les livres en même temps.
 
-Si aucun trajet valide n’est possible (par exemple, si un livre est complètement entouré de murs), vous devez retourner un string vide.
+Si aucun trajet valide n’est possible (par exemple, si un livre est complètement entouré de murs), vous devez retourner une chaîne de caractères vide.
 
 ## Exigences
 
@@ -115,5 +115,3 @@ Le trajet est valide tant qu’il :
 - Visite `a` et `b` au moins une fois,
 - N’entre jamais sur `#`,
 - Reste dans les limites de la grille.
-
-Si aucune solution n’est possible, une chaîne vide doit être retournée.

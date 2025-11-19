@@ -27,7 +27,7 @@ The library is represented as a rectangular grid of characters:
 
 There is exactly one `S` in the grid.\
 There can be zero or more requested books (letters) in the grid.\
-All rows have the same length.
+All rows and columns have the same length.
 
 The robot can move in four directions on the grid:
 
@@ -125,5 +125,3 @@ As long as your path:
 -   Stays inside the grid,
 
 it will be considered correct. 
-
-If the solution is not possible, an empty string should be returned.
